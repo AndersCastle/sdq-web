@@ -1,0 +1,153 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body
+{
+  margin: auto;  
+  height: 100vw;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+
+}
+main
+{
+    height: 100%;
+    
+
+}
+
+#left
+{
+  text-align: center;
+  background: rgb(38,38,38);
+  background: linear-gradient(0deg, rgba(38,38,38,1) 0%, rgba(253,107,45,1) 100%);
+  color:antiquewhite;
+  float: left;
+  position: fixed;
+  width: 30%;
+  height: 649px;
+}
+
+#left img
+{
+    border: 2px solid #ffffff;
+    border-radius: 80%;
+    margin-top: 10%;
+}
+
+h1{
+    font-family: Geneva, Tahoma, sans-serif;
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+a
+{ 
+  color: #ffffff;
+  font-size: 28px;
+  text-decoration: none;
+}
+
+a:hover
+{
+    color: rgb(199, 98, 16)
+}
+
+
+.btn
+{   
+    margin-top: 20px;
+    margin-left: 35%;
+    background-color:#262626;
+    width: 30%;
+    height: 5%;
+    border-radius: 30px;
+}
+
+#rigth
+{
+    background-image: url(https://i.pinimg.com/originals/8a/28/bf/8a28bf9807573000e4fa776efe180874.jpg);
+    float: right;
+    width: 70%;
+    height: 100vw;
+    text-align: center;
+    
+}
+
+#rigth img 
+{
+    margin-top: 5%;
+    height: 500px;
+    width: 500px;
+}
+
+form
+{
+    border: 2px solid white;
+    border: radius 30px;;
+    margin: auto;
+    margin-top:10% ;
+    width: 40%;
+    color: #ffffff;
+    background: rgb(38,38,38);
+    background: linear-gradient(0deg, rgba(38,38,38,1) 0%, rgba(253,107,45,1) 100%);
+
+}
+h2
+{
+  margin-top: 5%;
+}
+
+input
+{
+    width: 300px;
+    height: 25px;
+    margin: 10px;
+    background-color: #262626;
+    border: 1px solid #ffffff;
+    text-align: center;
+    color: #ffffff;
+    font-family: monospace;
+    
+}
+
+#content-province
+{
+    border: 1px solid black;
+}
+
+select
+{
+    width: 300px;
+    height: 25px;
+    margin: 10px;
+    background-color: #262626;
+    border: 1px solid #ffffff;
+    text-align: center;
+    color: #ffffff;
+    font-family: monospace;
+}
+span
+{
+    color: #ffffff;
+    font-size: 30px;
+}
+label
+{
+    padding: 0;
+}
+
+#aboutbox
+{
+    border: 2px solid white;
+    border: radius 30px;;
+    margin: auto;
+    margin-top:10% ;
+    width: 40%;
+    color: #ffffff;
+    background: rgb(38,38,38);
+    background: linear-gradient(0deg, rgba(38,38,38,1) 0%, rgba(253,107,45,1) 100%);
+
+    
+}

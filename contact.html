@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/index.css">
+    <title>Contact</title>
+</head>
+<body>
+    <div id="left">
+        <img src="./Source/img/v2.JPG" alt="" width="200px">
+        <h1 id="nombre">Anderson Castillo</h1>
+       <nav id="navbar">
+       <a href="index.html" target="_blank"><div class="btn">Home</div></a>
+       <a href="about.html" target="_blank"> <div class="btn">About</div></a>
+       <a href="contact.html" target="_blank"> <div class="btn">Contact</div></a>
+        </nav>
+    </div>
+    <div id="rigth" class="form">
+        <form action="">
+            <H2>CONTACT ME</H2>
+            <input type="text" placeholder="Nombre" maxlength="10" required>
+            <input type="text" placeholder="Apellido" maxlength="10" required>
+            <input type="date">
+            <br>
+            <label for="provincia">Provincia</label>
+            <br>
+            <select name="provincia" id="provincia" area-placeholder ="Provincia" required>
+                <option value="">Azua</option>
+                <option value="">Bahoruco</option>
+                <option value="">Barahona</option>
+                <option value="">Dajabon</option>
+                <option value="">Distrito Nacional</option>
+                <option value="">Duarte</option>
+                <option value="">Elias Pina</option>
+                <option value="">El Seibo</option>
+                <option value="">Espaillat</option>
+                <option value="">Hato Mayor</option>
+                <option value="">Hermanas Mirabal</option>
+                <option value="">Independencia</option>
+                <option value="">La Altagracia</option>
+                <option value="">La Romana</option>
+                <option value="">La Vega</option>
+                <option value="">Maria Trinidad Sanchez</option>
+                <option value="">Monsenor Nouel</option>
+                <option value="">Monte Cristi</option>
+                <option value="">Monte Plata</option>
+                <option value="">Pedernales</option>
+                <option value="">Peravia</option>
+                <option value="">Puerto Plata</option>
+                <option value="">Samana</option>
+                <option value="">Sanchez Ramirez</option>
+                <option value="">San Cristobal</option>
+                <option value="">San Jose de Ocoa</option>
+                <option value="">San Juan</option>
+                <option value="">San Pedro de Macoris</option>
+                <option value="">Santiago</option>
+                <option value="">Santo Domingo</option>
+                <option value="">Santiago Rodriguez</option>
+                <option value="">Valverde</option>
+            </select>
+            <input type="text" placeholder="Direccion">
+            <input type="tel" placeholder="Telefono sin -" pattern="[0-9]{10}" maxlength="10" required>
+            <input type="email" placeholder="Email">
+            <input class="radio" type="radio" name="genero" id="Hombre"><label for="Hombre">Hombre</label>
+            <input class="radio" type="radio" name="genero" id="Mujer"><label for="Mujer">Mujer</label>
+            <input class="radio" type="radio" name="genero" id="Otro"><label for="Otro">Otro</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <input type="checkbox" id="Terminos" required><label for="Terminos">Terminos y Condiciones</label>
+            <input type="submit" value="Enviar" class="boton">
+        </form>
+    </div>
+</body>
+</html>
